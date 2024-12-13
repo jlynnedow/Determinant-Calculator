@@ -51,10 +51,7 @@ public class ThreeController {
         mat[2][0] = Double.parseDouble(g.getText());
         mat[2][1] = Double.parseDouble(h.getText());
         mat[2][2] = Double.parseDouble(i.getText());
-
         double det = Matrix.det(mat);
-        //System.out.print(a.getText() + " this should be a number hahahahahaha");
-        //System.out.print(det);
         ans.setText("Answer: " + det);
         ans.setFont(Font.font("Montserrat"));
         ans.setVisible(true);

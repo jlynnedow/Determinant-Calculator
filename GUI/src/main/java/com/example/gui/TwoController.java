@@ -41,8 +41,6 @@ public class TwoController {
         mat[1][0] = Double.parseDouble(c.getText());
         mat[1][1] = Double.parseDouble(d.getText());
         double det = Matrix.det(mat);
-        //System.out.print(a.getText() + " this should be a number hahahahahaha");
-        //System.out.print(det);
         ans.setText("Answer: " + det);
         ans.setFont(Font.font("Montserrat"));
         ans.setVisible(true);

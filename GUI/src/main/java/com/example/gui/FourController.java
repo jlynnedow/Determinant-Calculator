@@ -72,7 +72,6 @@ public class FourController {
         mat[3][1] = Double.parseDouble(n.getText());
         mat[3][2] = Double.parseDouble(o.getText());
         mat[3][3] = Double.parseDouble(p.getText());
-
         double det = Matrix.det(mat);
         ans.setText("Answer: " + det);
         ans.setFont(Font.font("Montserrat"));
