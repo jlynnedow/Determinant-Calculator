@@ -11,7 +11,7 @@ public class MatrixApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MatrixApplication.class.getResource("openingScreen.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 300, 300);
         stage.setTitle("Determinant Calculator");
         stage.setScene(scene);
         stage.show();

@@ -31,4 +31,20 @@ public class OpenerController {
         stage.setTitle("2x2 matrix");
         stage.show();
     }
+
+    public void openp3(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("three.fxml"));
+        Stage stage = new Stage();
+        stage.setScene(new Scene(loader.load()));
+        stage.setTitle("2x2 matrix");
+        stage.show();
+    }
+
+    public void openp4(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("four.fxml"));
+        Stage stage = new Stage();
+        stage.setScene(new Scene(loader.load()));
+        stage.setTitle("2x2 matrix");
+        stage.show();
+    }
 }
