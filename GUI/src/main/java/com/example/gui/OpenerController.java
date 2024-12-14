@@ -25,7 +25,7 @@ public class OpenerController {
     }
 
     public void openp2(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("two.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Two.fxml"));
         Stage stage = new Stage();
         stage.setScene(new Scene(loader.load()));
         stage.setTitle("2x2 matrix");
@@ -33,7 +33,7 @@ public class OpenerController {
     }
 
     public void openp3(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("three.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Three.fxml"));
         Stage stage = new Stage();
         stage.setScene(new Scene(loader.load()));
         stage.setTitle("2x2 matrix");
@@ -41,7 +41,7 @@ public class OpenerController {
     }
 
     public void openp4(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("four.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Four.fxml"));
         Stage stage = new Stage();
         stage.setScene(new Scene(loader.load()));
         stage.setTitle("2x2 matrix");
