@@ -19,11 +19,9 @@ public class OpenerController {
     @FXML
     private Label b3;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        b1.setText("Welcome to JavaFX Application!");
-    }
-
+    /**
+     * Opens the scene for the 2x2 matrix calculator
+     */
     public void openp2(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Two.fxml"));
         Stage stage = new Stage();
@@ -32,6 +30,9 @@ public class OpenerController {
         stage.show();
     }
 
+    /**
+     * Opens the scene for the 3x3 matrix calculator
+     */
     public void openp3(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Three.fxml"));
         Stage stage = new Stage();
@@ -40,6 +41,9 @@ public class OpenerController {
         stage.show();
     }
 
+    /**
+     * Opens the scene for the 4x4 matrix calculator
+     */
     public void openp4(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Four.fxml"));
         Stage stage = new Stage();

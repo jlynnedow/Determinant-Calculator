@@ -1,15 +1,11 @@
 package com.example.gui;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
-import javafx.scene.Scene;
 
-import java.io.IOException;
 
 public class TwoController {
 
@@ -33,6 +29,9 @@ public class TwoController {
         stage.close();
     }
 
+    /**
+     * Computes the determinant and makes the answer visible
+     */
     @FXML
     public void onEnter(){
         double[][] mat = new double[2][2];

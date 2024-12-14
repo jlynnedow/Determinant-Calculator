@@ -53,6 +53,9 @@ public class FourController {
         stage.close();
     }
 
+    /**
+     * Computes the determinant and makes the answer visible
+     */
     @FXML
     public void onEnter(){
         double[][] mat = new double[4][4];
